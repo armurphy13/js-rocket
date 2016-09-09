@@ -4,7 +4,7 @@ body {
 }
 
 .left {
-	background-color: #ADDFFF;
+	background-color: #87ceeb;
 	position: fixed;
 	width: 50%;
 	height: 100%;
@@ -25,7 +25,7 @@ h1 {
 }
 
 .right {
-	background-color: #ADDFFF;
+	background-color: #abdcf1;
 	position: fixed;
 	width: 50%;
 	height: 100%;
@@ -39,7 +39,7 @@ h1 {
 	bottom: 0;
 	left: 0;
 	width: 1000%;
-	height: 20px;
+	height: 30px;
 }
 
 .nervous {
@@ -75,7 +75,7 @@ h1 {
 	left: 50%;
 	bottom: 20px;
 	width: 255px;
-	height: 390px;
+	height: 398px;
 	margin-left: -110px;
 	background: url('../images/rocket-A1.png') no-repeat;
 	transition: bottom 10000ms;
@@ -130,15 +130,15 @@ a {
 a.button {
 	display: inline-block;
 	padding: 20px 40px;
-	background-color: red;
-	color: #fff;
+	background-color: white;
+	color: #333;
 	font-weight: bold;
-	border-radius: 20px;
+	border-radius: 10px;
 	transition: color 300ms;
 	text-transform: uppercase;
-	border: 5px solid white;
+	
 }
 
 a:hover {
-	color: #000;
+	color: red;
 }
